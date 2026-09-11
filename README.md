@@ -12,9 +12,9 @@ Pandas (Manipulação, limpeza, e estruturação dos dados)
 Google Colab
 
 **Processo Investigativo:**
-**1. Coleta e ingestão:** Carregamento de um dataset contendo registros brutos de acesso web (IP, Timestamp, Método, URL e Status HTTP).
-**2. Filtragem e limpeza:** Aplicação de regras de negócio para separar o ruído (trafego benigno) das reais ameaças, reduzindo a base de análise para focar no que realmente importa.
-**3. Mapeamento de Vulnerabilidade:** Identificação de IPs realizando varreduras automatizadas (bots e scanning) e tentativas de execução remota de código (RCE)
+1. **Coleta e ingestão:** Carregamento de um dataset contendo registros brutos de acesso web (IP, Timestamp, Método, URL e Status HTTP).
+2. **Filtragem e limpeza:** Aplicação de regras de negócio para separar o ruído (trafego benigno) das reais ameaças, reduzindo a base de análise para focar no que realmente importa.
+3. **Mapeamento de Vulnerabilidade:** Identificação de IPs realizando varreduras automatizadas (bots e scanning) e tentativas de execução remota de código (RCE)
 
 **Achado de Auditoria (evidência):**
 A análise revelou que agentes externos automatizados estão recebendo respostas HTTP200 (OK) ao tatear a infraestrutura. Isso indica que o mapeamento malicioso está sendo bem-sucedido, expondo a arquitetura do sistema para possíveis injeções de código. O arquivo relatorio_auditoria_ameacas.csv foi gerado contendo o registro exato (IP e Horário) dessas anomalias.
