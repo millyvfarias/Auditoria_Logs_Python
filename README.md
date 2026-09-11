@@ -1,4 +1,4 @@
-# Auditoria de Logs - Detecção Automática de Ameaças (Logs Analyzer)
+# Auditoria de Logs - Detecção Automatizada de Ameaças (Logs Analyzer)
 Script em Python e Pandas para auditoria de logs de servidores, com foco em detecção automatizada de anomalias e ameaças cibernéticas.
 
 **Objetivo:** Automatizar a identificação das anomalias e possíveis ameaças de acessos a servidores, utilizando a análise de dados para apoiar a equipe de Segurança da Informação e Auditoria de TI.
